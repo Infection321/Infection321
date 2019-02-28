@@ -1,0 +1,96 @@
+html,
+html * {
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+}
+
+@font-face {
+	font-family: 'Seravek Bold';
+	src: url('/Users/year12/Documents/Unnamed Site 2/webfonts/Seravek_Bold/Seravek-Bold.ttf') format('truetype');
+}
+
+header {
+	-webkit-text-stroke: 5px red;
+	text-align: center;
+}
+
+body {
+	max-width: 1024px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.logo1 {
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: auto;
+	display: block;
+}
+
+.style-nav ul {
+	list-style-type: none;
+	font-family: "Seravek Bold";	
+}
+
+.style-nav ul li a {
+	text-decoration: none;
+	color: white;
+	text-align: center;
+	display: block;
+	text-transform: uppercase;
+	padding: 8px;
+	font-family: "Seravek Bold";
+	font-size: 24px;
+}
+
+@media (min-width: 1024px) {
+	.style-nav ul li {
+		display: inline-block;
+	}
+	.style-nav ul {
+		text-align: center;
+	}
+}
+.click-box {
+	height: 576px;
+	margin-left: auto;
+	margin: 1%;
+}
+
+h1 {
+	color: white;
+	font-size: 20px;
+	padding-top: 270px;
+	padding-left: 20px;
+	font-style: normal;
+	font-family: abel;
+}
+
+.col img {
+	width: 100%;
+	height: auto;
+	display: block;
+}
+
+.col {
+	width: 31.3%;
+	float: left;
+	margin: 1%;
+	position: relative;
+}
+.text-box1 {
+	position: absolute;
+	bottom: 5px;
+	left: 10px;
+	font-family: abel;
+	color: white
+}
+.text {
+	color: white;
+	font-family: abel;
+	padding-left: 1%
+}
+
+p {
+	text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+}
